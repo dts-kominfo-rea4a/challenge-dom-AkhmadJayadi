@@ -63,12 +63,15 @@
     <!-- ! Untuk tantangan ini, script jangan diubah ke external js yah ! -->
     <script>
       // TODO: Deklarasi variable sesuai dengan kebutuhan di sini
-      let button = document.getElementById("todo-submit");
-      let input = document.getElementById('todo-input');
-      let output = document.getElementById('todo-output');
-      var inputValue = document.getElementById("todo-input").value;
+      let button;
+      let input;
+      let output;
 
-      console.log(inputValue);
+      button = document.getElementById("todo-submit");
+      input = document.getElementById('todo-input');
+      output = document.getElementById('todo-output');
+
+      //console.log(inputValue);
 
       // TODO: Buatlah sebuah fungsi dengan nama fnClickHandler
       // Fungsi yang digunakan untuk menambahkan tulisan
@@ -92,7 +95,7 @@
           fnClickHandler(event);
         }
       });
-      
+
     </script>
   </body>
 </html>
